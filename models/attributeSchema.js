@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 const attributeSchema = new Schema({
+  login: String,
   nome: String,
   imgURL: String,
   classe: String,
